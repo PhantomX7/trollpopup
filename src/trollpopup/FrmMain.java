@@ -145,7 +145,7 @@ public class FrmMain extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Random random = new Random();
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             FrmMain frmMain = new FrmMain();
             frmMain.setVisible(true);
             frmMain.setLocation(random.nextInt(1500), random.nextInt(1000));
